@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oleo+Script+Swash+Caps&display=swap');
+
+html::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track{
+    width: 10px;
+    background-color:grey;
+}
+html::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    width: 10px;
+    background-image: linear-gradient(white,black);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbarstick{
+    position: sticky;
+    top: 0%;
+    z-index: 9999;
+}
+.name{
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px -9px 5px black;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.logo{
+    position: fixed;
+    top: 0px;
+    left: 10%;
+    z-index: 9999;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+.slide1{
+    background-image: url('../images/slider-1.jpg');
+    background-size: 100% 100%;
+    height: 400px;
+}
+.slide2{
+    background-image: url('../images/slider-2.jpeg');
+    background-size: 100% 100%;
+    height: 400px;
+}
+.slide3{
+    background-image: url('../images/slider-3.jpg');
+    background-size: 100% 100%;
+    height: 400px;
+}
+.gallery{
+    font-family: 'Abril Fatface', cursive;
+}
+.add{
+    background-image: url('../images/slider-3.jpg');
+    background-size: 100% 100%;
+
+}
+.blur{
+    background-color: rgba(8, 8, 10, 0.5);  
+}
+.principalpara{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    word-spacing: 3;
+    line-height: 2;
+    font-weight: 500;
+}
+.principalimage{
+    width: 100%;
+    border-radius: 10px;
+    /* style="width:100% ; border-radius:10px" */
+}
+
+.map{
+    width: 750px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+/* contact  us page  */
+
+.contactmap{
+    margin-top: 20px;
+    width: 660px;
+    height: 300px;
+    border-radius: 9px;
+}
+
+/*  About US Section  */
+
+.about{
+    margin-top: -14px;
+    background-image: url('../images/about.jpg');
+    background-size: 100% 100%;
+    height: 300px;
+}
+.aboutname{
+    margin-top: 80px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 80px;
+    text-shadow: 0px 4px 4px black;
+}
+.content{
+    background-color: rgb(235 219 219 / 74%);
+}
+
+/*  department section  */
+.department{
+    margin-top: -14px;
+    background-image: url('../images/department.jpg');
+    background-size: 100% 100%;
+    height: 300px;
+}
+.deptsection{
+    background-color: #6c619b73;
+}
+
+
+/*  Admission section  */
+
+.submitbtn{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: rgba(116, 111, 111, 0.815);
+    color: white;
+    font-weight: bold;
+}
+.submitbtn:hover{
+    background-color: black;
+}
+
+/*  management section  */
+
+.management{
+    margin-top: -14px;
+    background-image: url('../images/managment.jpg');
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+/*  Computer Science department  */
+.computer{
+    margin-top: -14px;
+    background-image: url('../images/computescience.jpg');
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+
+
+@media(max-width:550px){
+    .principalimage{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 6%;
+    }
+    .menu{
+        float: right;
+    }
+    .map{
+        width: 600px;
+        margin-top:-100px;
+    }
+    .img{
+        width: 400px;
+        height: 410px;
+        /* margin-left: 19%; */
+        margin: 30px;
+    }
+    .name{
+        display: none;
+    }
+    .para{
+        display: none;
+    }
+    .principalpara{
+        padding: 0px;
+    }
+
+    .map{
+        margin-top: -40px;
+        width: 450px;
+    }
+    .contactmap{
+        width: 410px;
+        margin-top: 50px;
+    }
+
+    /*  About Us Section  */
+    .aboutname{
+        font-size: 50px;
+    }
+
+    /*  department section  */
+
+
+
+
+
+}
